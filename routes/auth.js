@@ -22,7 +22,7 @@ module.exports.signup = function (req, res) {
         if (err) {
             res.json({
                 type: false,
-                data: "Error occured: " + err
+                data: "Error occurred: " + err
             });
         } else {
             if (user) {
@@ -52,7 +52,7 @@ module.exports.login = function(req,res){
         if(err) {
             res.json({
                 type: false,
-                data: "authenticate error occured :" +err
+                data: "authenticate error occurred :" +err
             });
         }
         else if(!user) {
