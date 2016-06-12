@@ -75,7 +75,7 @@ app.listen(port, function(){
  if (err){
  res.json({
  type: false,
- data : "error Occured:"+err
+ data : "error Occurred:"+err
  });
  }
  else if (user){
@@ -97,7 +97,7 @@ app.listen(port, function(){
  if (err) {
  res.json({
  type: false,
- data: "authenticate error occured :" + err
+ data: "authenticate error occurred :" + err
  });
  }
  else if (user) {
